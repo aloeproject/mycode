@@ -66,4 +66,4 @@ do
 		fi
 	done
 done
-rm $$.time
+rm $$.time /tmp/valid.$$.log /tmp/temp.$$.log /tmp/$$.log
