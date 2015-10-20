@@ -12,3 +12,6 @@ $toDate = DateTime::createFromFormat('Y-m-d H:i:s',$to);
 $dateIntval = $fromDate->diff($toDate);
 
 echo $dateIntval->format("相差 %Y年%m月%d天 %h小时%i分%s秒\n");
+
+
+echo 123;
