@@ -1,4 +1,0 @@
-new_1.2_new
-master
-
-v2.0
