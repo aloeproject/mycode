@@ -31,3 +31,5 @@ function search2($search,$arr,$min = null,$max = null){
     return search2($search,$arr,$min,$max);
 }
 var_dump(search2(20,$arr));
+
+echo 44;
