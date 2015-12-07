@@ -61,6 +61,7 @@ class SingeLinkList
 		
 		while ($current->id != $current->next->id){
 			$tmpNum++;
+			#对这个元素进行剔除
 			if ($tmpNum > $num-1){
 				$tmpNum = 1;
 				$current->next = $current->next->next; 

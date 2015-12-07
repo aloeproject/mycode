@@ -6,7 +6,7 @@
 */
 //奇数在前，偶数在后
 $arr = array(1,6,5,2,4,9,1,12,3);
-
+//使用二分法
 function mysort(&$array){
 	$len = count($array);
 

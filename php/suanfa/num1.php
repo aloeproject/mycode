@@ -4,7 +4,7 @@
  * @author              $Author:lukang$
  * @email               $lk88boy@gmail.com$
 */
-
+/* 找到最长的连续数字*/
 $num='3123533413257891';
 
 $arr = str_split($num);
