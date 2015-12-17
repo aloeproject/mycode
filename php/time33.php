@@ -8,9 +8,8 @@ function time33($str){
 	$hash = 0;
 	$len = strlen($str);
 	for ($i=0;$i<$len;$i++){
-		$hash = ($hash << 5) + $hash + intval($str[$i]);
-		#$hash = $hash <+ intval($str[$i]);
+		$hash = (($hash << 5) + $hash) + $str[$i];
 	}
-	return strval($hash);
+	return $hash;
 }
-var_dump(time33('100000000'));
+var_dump(time33('2'));

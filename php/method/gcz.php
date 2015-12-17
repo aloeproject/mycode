@@ -13,13 +13,13 @@ class Subject implements SplSubject
 	public function __construct(){
 		$this->observers = new SplObjectStorage();
 	}
-
+	//添加观察者
 	public function attach(SplObserver $observer)  
 	{  
 		$this->observers->attach($observer);
 	}  
 
-
+	//删除观察者
 	public function detach(SplObserver $observer)  
 	{  
 		$this->observers->detach($observer);
