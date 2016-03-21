@@ -1,0 +1,12 @@
+<?php
+/**
+ * File Name:strcasecmp.php
+ * @author              $Author:lukang$
+ * @email               $lk88boy@gmail.com$
+*/
+
+$var1 = "Hello";
+$var2 = "hello";
+if (strcasecmp($var1, $var2) == 0) {
+	    echo '$var1 is equal to $var2 in a case-insensitive string comparison';
+}
