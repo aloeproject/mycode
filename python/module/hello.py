@@ -3,5 +3,5 @@
 'hello.py'
 
 
-def _test():
+def test():
     print(__name__)
