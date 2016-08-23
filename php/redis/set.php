@@ -6,5 +6,5 @@
 */
 $redis = new Redis();
 $con = $redis->connect('127.0.0.1');
-$redis->set('json','[1]');
-var_dump($redis->get('json'));
+#$redis->set('haha','[5]',20);
+var_dump($redis->get('haha'));

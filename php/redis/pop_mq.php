@@ -11,7 +11,7 @@ $mqkey = "my_mq";
 while (true) {
 	$start = time();
 	sleep(1);
-	$ret = $redis->blpop($mqkey,2);
+	$ret = $redis->lpop($mqkey);
 	var_dump($ret);
 	var_dump(time() - $start);
 }
